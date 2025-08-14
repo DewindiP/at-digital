@@ -14,8 +14,8 @@ export default {
     },
     colors:{
       primaryColor: '#4F46E5',
-      secondaryColor: '##F28D35',
-      analogousColor1: '##6A44F2',
+      secondaryColor: '#F28D35',
+      analogousColor1: '#6A44F2',
       analogousColor2: '#1CBDDD',
       triadicColor1: '#52378C',
       darkColor1: '#78BF91',
