@@ -27,9 +27,23 @@ export default {
       accentColor2: '#FFF8E0',
       errorColor: '#FF0335',
       successColor: '#5EB30B',
-      white: '#FFFFFF'
+      white: '#FFFFFF',
+      neutral: '#6F6C90',
+      black: '#000000',
     },
-    extend: {},
+    extend: {
+       fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      },
+      typography: {
+        navbarLink: {
+          fontSize: '14px',
+          fontWeight: '500',
+          lineHeight: '1',
+          letterSpacing: '0',
+        },
+      },
+    },
   },
   plugins: [],
 }

@@ -9,7 +9,7 @@ const FooterMain = () => {
         
         {/* Left Column */}
         <div className="max-w-sm">
-          <img src={Logo} alt="at digital" className="h-[40px] mb-4" />
+          <img src={Logo} alt="at digital" className="h-[40px] mb-4 w-auto" />
           <p className="text-sm leading-6 text-white align-baseline text-justify">
             Your goal is our target. Not anything in between. We use online
             marketing platforms and tools to achieve a single objective – your
@@ -19,8 +19,8 @@ const FooterMain = () => {
 
         {/* Middle Column */}
         <div>
-          <h4 className="font-semibold mb-3">Our Technologies</h4>
-          <ul className="space-y-2 text-sm text-white align-baseline text-justify">
+          <h4 className="font-semibold mb-3 text-sm sm:text-base md:text-lg text-justify">Our Technologies</h4>
+          <ul className="space-y-2 text-xs sm:text-sm md:text-base text-white text-justify">
             <li>ReactJS</li>
             <li>Gatsby</li>
             <li>NextJS</li>
@@ -30,8 +30,8 @@ const FooterMain = () => {
 
         {/* Right Column */}
         <div>
-          <h4 className="font-semibold mb-3 align-baseline text-justify">Our Services</h4>
-          <ul className="space-y-2 text-sm text-white align-baseline text-justify">
+          <h4 className="font-semibold mb-3 text-sm sm:text-base md:text-lg text-justify">Our Services</h4>
+          <ul className="space-y-2 text-xs sm:text-sm md:text-base text-white text-justify">
             <li>Social Media Marketing</li>
             <li>Web & Mobile App Development</li>
             <li>Data & Analytics</li>
@@ -40,10 +40,12 @@ const FooterMain = () => {
       </div>
 
       {/* Divider */}
-      <hr className="border-white my-6" />
+      <div className="flex justify-center mt-6 mb-1">
+        <hr className="border-white w-[630px]" /> {/* Divider with specified width */}
+      </div>
 
       {/* Bottom Links */}
-      <div className="flex justify-center gap-4 text-sm text-white">
+      <div className="flex justify-center items-center whitespace-nowrap gap-2 sm:gap-1 text-xs sm:text-sm md:text-base text-white w-fit mx-auto">
         <a href="#" className="hover:underline">
           Privacy Policy
         </a>

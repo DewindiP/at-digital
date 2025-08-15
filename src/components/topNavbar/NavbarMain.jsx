@@ -10,7 +10,9 @@ const NavbarMain = () => {
     <nav className="w-full bg-primaryColor px-6 md:px-6 lg:px-[80px] py-[20px] flex justify-between items-center overflow-x-hidden">
       
       {/* Logo */}
-      <NavbarLogo />
+      <div>
+        <NavbarLogo />
+      </div>
 
       {/* Desktop Links */}
       <div className="hidden md:flex">
@@ -27,8 +29,16 @@ const NavbarMain = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-[72px] left-0 w-full bg-primaryColor shadow-md flex flex-col items-center gap-6 py-6 md:hidden z-50">
-          <NavbarLinks mobile />
+        <div className="absolute top-0 left-0 w-full h-screen bg-primaryColor flex flex-col items-start justify-start gap-6 z-50  px-4 pt-4">
+
+           <div
+            className="absolute top-4 right-4 text-white text-2xl cursor-pointer"
+            onClick={() => setIsOpen(false)}
+          >
+            <FaTimes />
+          </div>
+
+          <NavbarLinks isMobile={true} />
         </div>
       )}
     </nav>
