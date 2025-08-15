@@ -13,7 +13,7 @@ const Section1Main = () => {
       {/* Left Image */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
-          src="src\assets\image 2.png" 
+          src="public/assets/image 2.png" 
           alt="Web & Mobile App Development"
           className="w-[300px] h-auto"
         />

@@ -18,7 +18,7 @@ const Section2Main = () => {
       {/* Right Image */}
       <div className="w-full md:w-1/2 flex justify-center">
         <img
-          src="src/assets/image 1.png"
+          src="public/assets/image 1.png"
           alt="Digital Strategy Consulting"
           className="w-[200px] md:w-[300px] h-auto"
         />

@@ -41,7 +41,7 @@ const FooterMain = () => {
 
       {/* Divider */}
       <div className="flex justify-center mt-6 mb-1">
-        <hr className="border-white w-[630px]" /> {/* Divider with specified width */}
+        <hr className="border-white w-[630px]" /> 
       </div>
 
       {/* Bottom Links */}
