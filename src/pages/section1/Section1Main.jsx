@@ -20,7 +20,7 @@ const Section1Main = () => {
       </div>
 
       {/* Right Text */}
-      <div className="w-full md:w-1/2">
+      <div className="w-full md:w-1/2 text-center md:text-left">
         <Section1Text />
       </div>
     </section>

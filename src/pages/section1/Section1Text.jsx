@@ -2,7 +2,7 @@ import React from "react";
 
 const Section1Text = () => {
   return (
-    <div className="text-left">
+    <div>
       <h2 className="text-2xl md:text-3xl font-bold text-primaryColor mb-4">
         Web & Mobile App Development
       </h2>
