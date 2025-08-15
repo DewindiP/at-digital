@@ -4,19 +4,24 @@ import FAQs from "./FAQs";
 const FAQsList = () => {
   const faqsData = [
     {
-      question: "What is Webflow and why is it the best website builder?",
+      question: "Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?",
       answer:
-        "Vitae congue eu consequat ac felis placerat vestibulum lectus mauris ultrices. Cursus sit amet dictum sit amet justo donec enim diam porttitor lacus luctus accumsan tortor posuere.",
+        "Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.",
     },
     {
-      question: "How does Webflow compare to other platforms?",
+      question: "Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?",
       answer:
-        "Webflow offers a unique combination of design freedom and development power, making it ideal for designers and developers alike.",
+        "Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.",
+    },
+    {
+      question: "Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?",
+      answer:
+        "Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.",
     },
   ];
 
   return (
-    <div className="max-w-lg mx-auto">
+    <div className="max-w-2xl mx-auto space-y-4">
       {faqsData.map((faq, index) => (
         <FAQs key={index} question={faq.question} answer={faq.answer} />
       ))}
