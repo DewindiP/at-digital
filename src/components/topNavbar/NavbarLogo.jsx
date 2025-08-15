@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavbarLogo = () => {
   return (
-    <img src="public/assets/Logo.png" 
+    <img src="public/images/Logo.png" 
     alt="Logo"
     className="h-[40px] w-auto mb-2" />
   )
