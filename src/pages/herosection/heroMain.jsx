@@ -6,7 +6,7 @@ const HeroMain = () => {
     <section
       className="relative bg-cover bg-center text-white"
       style={{
-        backgroundImage: "url('public/images/Hero Image.png')",
+        backgroundImage: "url('/images/Hero Image.png')",
         width: "100%",
         height: "87vh",
       }}
