@@ -43,11 +43,11 @@ const FooterMain = () => {
       <hr className="border-white my-6" />
 
       {/* Bottom Links */}
-      <div className="flex flex-col md:flex-row justify-center gap-4 text-sm text-white">
+      <div className="flex justify-center gap-4 text-sm text-white">
         <a href="#" className="hover:underline">
           Privacy Policy
         </a>
-        <span className="hidden md:inline">|</span>
+        <span>|</span>
         <a href="#" className="hover:underline">
           Terms & Conditions
         </a>
