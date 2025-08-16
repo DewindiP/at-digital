@@ -11,7 +11,7 @@ const HeroMain = () => {
         height: "87vh",
       }}
     >
-      <div className="absolute bottom-[10%] left-[5%] z-10">
+      <div className="absolute bottom-[10%] left-0 right-0 px-4 md:px-6 lg:left-[5%] lg:right-auto z-10">
         <HeroText />
       </div>
     </section>
