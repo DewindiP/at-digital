@@ -4,7 +4,7 @@ const FooterMain = () => {
   return (
     <footer className="bg-primaryColor text-white px-10 lg:px-20 py-10">
       {/* Top Section */}
-      <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-10">
+      <div className="flex flex-col md:flex-wrap md:flex-row md:justify-between md:items-start gap-10">
         
         {/* Left Column */}
         <div className="max-w-sm">
@@ -17,7 +17,7 @@ const FooterMain = () => {
         </div>
 
         {/* Middle Column */}
-        <div>
+        <div className="md:basis-1/2 lg:basis-auto">
           <h4 className="font-semibold mb-3 text-sm sm:text-base md:text-lg text-justify">Our Technologies</h4>
           <ul className="space-y-2 text-xs sm:text-sm md:text-base text-white text-justify">
             <li>ReactJS</li>
@@ -28,7 +28,7 @@ const FooterMain = () => {
         </div>
 
         {/* Right Column */}
-        <div>
+        <div className="md:basis-1/2 lg:basis-auto" >
           <h4 className="font-semibold mb-3 text-sm sm:text-base md:text-lg text-justify">Our Services</h4>
           <ul className="space-y-2 text-xs sm:text-sm md:text-base text-white text-justify">
             <li>Social Media Marketing</li>
