@@ -6,6 +6,7 @@ import Section1Main from './pages/section1/Section1Main';
 import Section2Main from './pages/section2/Section2Main';
 import FAQsMain from './pages/faqs/FAQsMain';
 import  FooterMain from './components/footerSection/FooterMain';
+import HeroText from './pages/herosection/heroText';
 
 function App() {
 

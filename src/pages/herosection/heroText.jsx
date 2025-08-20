@@ -3,11 +3,13 @@ import ButtonMain from "../../components/button/ButtonMain";
 
 const HeroText = () => {
   return (
-    <div className="bg-gradient-to-r from-darkColor2 to-analogousColor2 p-4 rounded-md shadow-lg max-w-[500px]">
-      <h1 className="text-xl md:text-2xl lg:text-3xl font-bold leading-tight mb-4 text-white text-left">
-        We Crush Your <br /> Competitors, Goals, And Sales Records - Without <br />The B.S.
+    <div className="bg-gradient-to-r from-darkColor2 to-analogousColor2 shadow-lg w-full h-auto p-4 flex flex-col gap-3">
+      <h1 className="font-inter font-bold text-[32px] md:text-[48px] leading-[100%] tracking-[-0.02em] capitalize text-white text-left">
+        We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
       </h1>
-      <ButtonMain text="GET FREE CONSULTATION" onClick={() => alert("Button Clicked!")} />
+      <div className="self-start">
+        <ButtonMain text="GET FREE CONSULTATION" onClick={() => alert("Button Clicked!")} />
+      </div>
     </div>
   );
 };
